@@ -1,0 +1,33 @@
+button{
+  background-color: green;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-weight: 5px;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+.inputSections{
+  margin: 30px 0px 30px 0px;
+  width: 400px;
+}
+
+.inputs{
+  width: inherit;
+}
+input{
+  width: inherit;
+}
+
+.addOption{
+  margin-top: 60px;
+}
