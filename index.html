@@ -6,14 +6,38 @@
     <link href="./main.css" rel="stylesheet" type= "text/css" >
   </head>
   <body>
+    <div class="bodyBackground">
+
     <h1>What to choose between..</h1>
-    <img src="https://y.cdn-expressen.se/images/db/a2/dba28af3f492441b861d18d01d75a245/4x3/650@80.jpg">
+    </div>
+      <img src="https://y.cdn-expressen.se/images/db/a2/dba28af3f492441b861d18d01d75a245/4x3/650@80.jpg">
     <div class="inputSections" >
       <div class="inputs">
         <input placeholder="Options"></input>
       </div>
-      <button class="addOption">Add</button>
+        <button class="addOption">Add</button>
     </div>
+    <div class="resultSection"></div>
     <button>Go!</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(function(){
+          $('.resultSection').hide()
+
+          var add_option = function(){
+            $('.inputs').append('<input></input>')
+          }
+
+        $('.addOption').click(add_option)
+      })
+      $('function'){
+        var changeBackground = function(){
+          $('bodyBackground').toggleClass("marked")
+
+        }
+      $('title').click(changeBackground)
+    }
+    </script>
+
   </body>
 </html>

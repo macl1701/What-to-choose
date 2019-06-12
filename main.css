@@ -29,5 +29,13 @@ input{
 }
 
 .addOption{
-  margin-top: 60px;
+  margin-top: 10px;
+}
+
+.bodyBackground{
+  margin: 10px 0px 10px 0px;
+  color: : white;
+}
+.marked{
+  color: blue;
 }
